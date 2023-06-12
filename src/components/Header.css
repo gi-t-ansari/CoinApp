@@ -1,0 +1,28 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a5f3fc;
+  background: linear-gradient(125deg, #a5f3fc 20%, #22d3ee 100%, #a5f3fc 80%);
+}
+
+.lists {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.lists > li {
+  margin-right: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.lists > li:hover {
+  cursor: pointer;
+}
+
+.logoMain:hover {
+  cursor: pointer;
+}
